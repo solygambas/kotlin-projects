@@ -1,12 +1,8 @@
-# Kotlin Projects
-
-A small project to understand Kotlin core concepts.
-
-## Hello Kotlin
+# Hello Kotlin
 
 A quick intro to Kotlin syntax.
 
-### Features
+## Features
 
 - setting up a Kotlin project in IntelliJ IDEA.
 - discovering variables and data types.
