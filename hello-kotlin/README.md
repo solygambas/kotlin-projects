@@ -6,6 +6,7 @@ A quick intro to Kotlin syntax.
 
 - setting up a Kotlin project in IntelliJ IDEA.
 - discovering variables and data types.
-- using arithmetic operators and booleans.
+- using arithmetic operators, booleans and if conditions.
+- handling null values.
 
 Based on [Kotlin Crash Course](https://www.youtube.com/watch?v=5flXf8nuq60) by Philipp Lackner for Traversy Media (2021).
