@@ -15,8 +15,17 @@ fun main() {
     // val preciseDecimal = 3.33 // double
     // val decimal = 3.33f // float
 
-    val iLovePizza = true
+    // BOOLEANS
+    val iLLovePizza = true
     val iLoveVeggies = false
+    val iLoveBoth = iLovePizza && iLoveVeggies
+    val iLoveOne = iLovePizza || iLoveVeggies
+    val iLoveEquallyBoth = iLovePizza == iLoveVeggies
+    val iDontLoveEquallyBoth = iLovePizza != iLoveVeggies
+    println(iLoveBoth) // false
+    println(iLoveOne) // true
+    println(iLoveEquallyBoth) // false
+    println(iDontLoveEquallyBoth) // true
 
     val iAmALetter = 'a'
 

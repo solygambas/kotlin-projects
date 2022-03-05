@@ -6,6 +6,8 @@ A small project to understand Kotlin core concepts.
 
 A quick intro to Kotlin syntax.
 
+[See hello-kotlin folder](https://github.com/solygambas/kotlin-projects/tree/master/hello-kotlin)
+
 ### Features
 
 - setting up a Kotlin project in IntelliJ IDEA.
