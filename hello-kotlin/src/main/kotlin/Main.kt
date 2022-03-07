@@ -6,9 +6,9 @@ fun main() {
     // println("Program arguments: ${args.joinToString()}")
 
     // VARIABLES AND DATA TYPES
-    var x: Int = 3
+    // var x: Int = 3
     // println("The value of x is $x") // 3
-    x = 4
+    // x = 4
     // println("The value of x is now $x") // 4
     val y: Int = 11 // can't be reassigned
     // val bigNumber = 3L // long (64 number)
@@ -60,4 +60,37 @@ fun main() {
     // val number2 = readLine() ?: "0"
     // val result = number1.toInt() + number2.toInt()
     // println(result) // 6
+
+    // LISTS
+    val shoppingList = listOf<String>("Lamborghini", "Penthouse", "Rolex")
+    // println(shoppingList[0]) // Lamborghini
+    val shoppingList2 = mutableListOf("Lamborghini", "Penthouse", "Rolex")
+    shoppingList2.add("Ferrari")
+    // println(shoppingList2[3])
+
+    // WHILE LOOPS
+    var counter = 0
+    while(counter < shoppingList2.size) {
+        // println(shoppingList2[counter])
+        counter++
+    }
+
+    // FOR LOOPS
+    for(shoppingItem in shoppingList2) {
+        // println(shoppingItem)
+    }
+
+    for(i in 1..10) {
+        // println(i) // 1, 2, ..., 10
+    }
+
+    // WHEN EXPRESSIONS
+    val x = 3
+    when(x) {
+        in 1..2 -> print("x is between 1 and 2")
+        in 3..10 -> println("x is between 3 and 10")
+        else -> {
+            println("x is not in the range of 1 to 10")
+        }
+    }
 }
