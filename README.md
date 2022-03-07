@@ -8,6 +8,12 @@ A basic todo list Android app using Kotlin.
 
 [See 01-todo-list folder](https://github.com/solygambas/kotlin-projects/tree/master/01-todo-list)
 
+<p align="center">
+<a href="https://github.com/solygambas/kotlin-projects/tree/master/01-todo-list">
+<img src="01-todo-list/screenshot.png" style="width:528px;max-width: 100%;">
+</a>
+</p>
+
 ### Features
 
 - setting up Android Studio.
