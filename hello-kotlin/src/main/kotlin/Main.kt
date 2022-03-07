@@ -111,12 +111,31 @@ fun main() {
     // cat.meow()
 
     // ANONYMOUS CLASSES
-    val bear = object : Animal("Camembear") {
+    /* val bear = object : Animal("Camembear") {
         override fun makeSound() {
             print("ROOOAR!!!")
         }
+    } */
+    // bear.makeSound()
+
+    // TRY / CATCH
+    /* val number = readLine() ?: "0"
+    val parsedNum = try {
+        number.toInt()
+    } catch (e: Exception) {
+        0
     }
-    bear.makeSound()
+    println(parsedNum) */
+
+    // LAMBDA FUNCTIONS
+    val funList = listOf("Kotlin", "is", "fun")
+    //val count = funList.count { currentString ->
+    //    currentString.length == 3
+    //}
+    val count = funList.customCount { currentString ->
+        currentString.length == 3
+    }
+    println(count) // 1
 }
 
 fun print10numbers() {
@@ -132,4 +151,15 @@ fun isEven(number: Int = 11): Boolean {
 // extending functions with types
 fun Int.isOdd(): Boolean {
     return this % 2 == 1
+}
+
+// fun List<String>.customCount(funnyFunction: (String) -> Boolean): Int {
+fun <T> List<T>.customCount(funnyFunction: (T) -> Boolean): Int {
+    var counter = 0
+    for(item in this) {
+        if(funnyFunction(item)) {
+            counter++
+        }
+    }// list
+    return counter
 }
