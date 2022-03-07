@@ -102,6 +102,21 @@ fun main() {
     // println(odd) // false
     val extended = 3
     // println(extended.isOdd()) // true
+
+    // CLASSES
+    // val dog = Animal("Dog")
+    // val dog = Dog()
+    // dog.bark()
+    // val cat = Cat()
+    // cat.meow()
+
+    // ANONYMOUS CLASSES
+    val bear = object : Animal("Camembear") {
+        override fun makeSound() {
+            print("ROOOAR!!!")
+        }
+    }
+    bear.makeSound()
 }
 
 fun print10numbers() {
