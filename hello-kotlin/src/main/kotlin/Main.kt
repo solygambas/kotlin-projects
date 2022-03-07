@@ -86,11 +86,35 @@ fun main() {
 
     // WHEN EXPRESSIONS
     val x = 3
-    when(x) {
+    /* when(x) {
         in 1..2 -> print("x is between 1 and 2")
         in 3..10 -> println("x is between 3 and 10")
         else -> {
             println("x is not in the range of 1 to 10")
         }
+    } */
+
+    // FUNCTIONS
+    // print10numbers()
+    // val odd = isEven(5)
+    // val odd = isEven()
+    // val odd = isEven(number = 5)
+    // println(odd) // false
+    val extended = 3
+    // println(extended.isOdd()) // true
+}
+
+fun print10numbers() {
+    for(i in 1..10) {
+        println(i) // 1, 2, ..., 10
     }
+}
+
+fun isEven(number: Int = 11): Boolean {
+    return number % 2 == 0
+}
+
+// extending functions with types
+fun Int.isOdd(): Boolean {
+    return this % 2 == 1
 }
