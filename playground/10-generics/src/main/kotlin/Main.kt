@@ -23,6 +23,31 @@ class Contest<T : Pet> {
     }
 }
 
+interface Retailer<out T> {
+    fun sell(): T
+}
+
+class CatRetailer : Retailer<Cat> {
+    override fun sell(): Cat {
+        println("Sell Cat")
+        return Cat("")
+    }
+}
+
+class DogRetailer : Retailer<Dog> {
+    override fun sell(): Dog {
+        println("Sell Dog")
+        return Dog("")
+    }
+}
+
+class FishRetailer : Retailer<Fish> {
+    override fun sell(): Fish {
+        println("Sell Fish")
+        return Fish("")
+    }
+}
+
 fun main(args: Array<String>) {
     val catFuzz = Cat("Fuzz Lightyear")
     val catKatsu = Cat("Catsu")
@@ -39,6 +64,11 @@ fun main(args: Array<String>) {
     petContest.addScore(fishFinny, 56)
     val topPet = petContest.getWinners().first()
     println("Pet contest winner is ${topPet.name}")
+
+    val dogRetailer: Retailer<Dog> = DogRetailer()
+    val catRetailer: Retailer<Cat> = CatRetailer()
+    val petRetailer: Retailer<Pet> = CatRetailer()
+    petRetailer.sell()
 }
 
 
