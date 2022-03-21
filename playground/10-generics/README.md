@@ -4,6 +4,7 @@ A small project to discover generics in Kotlin.
 
 ## Features
 
+- writing type-safe code with generics.
 - using a generic subtype in place of a supertype with "out" (covariant type).
 - using a generic supertype in place of a subtype with "in" (contravariant type).
 
