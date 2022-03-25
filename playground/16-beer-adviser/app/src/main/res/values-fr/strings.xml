@@ -2,10 +2,4 @@
     <string name="app_name">Beer Adviser</string>
     <string name="find_beer">Trouver une bière</string>
     <string name="brands">Pas de bière sélectionnée</string>
-    <string-array name="beer_colors">
-        <item>Blanche</item>
-        <item>Ambrée</item>
-        <item>Rousse</item>
-        <item>Brune</item>
-    </string-array>
 </resources>
