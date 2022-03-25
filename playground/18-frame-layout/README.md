@@ -2,9 +2,9 @@
 
 A basic Android app to learn how to use a frame layout.
 
-<!-- <p align="center">
+<p align="center">
 <img src="screenshot.png" style="width:528px;max-width: 100%;">
-</p> -->
+</p>
 
 ## Features
 
