@@ -5,6 +5,7 @@
       <map>
         <entry key="app/src/main/res/layout/fragment_help.xml" value="0.31005732152162585" />
         <entry key="app/src/main/res/layout/fragment_inbox.xml" value="0.31005732152162585" />
+        <entry key="app/src/main/res/layout/fragment_sent_items.xml" value="0.31005732152162585" />
         <entry key="app/src/main/res/menu/menu_toolbar.xml" value="0.375" />
       </map>
     </option>

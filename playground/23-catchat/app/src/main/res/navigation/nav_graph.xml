@@ -16,4 +16,9 @@
         android:name="com.hfad.catchat.HelpFragment"
         android:label="Help"
         tools:layout="@layout/fragment_help" />
+    <fragment
+        android:id="@+id/sentItemsFragment"
+        android:name="com.hfad.catchat.SentItemsFragment"
+        android:label="Sent Items"
+        tools:layout="@layout/fragment_sent_items" />
 </navigation>
