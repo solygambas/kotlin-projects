@@ -2,9 +2,9 @@
 
 A prototype email app to discover how to implement three types of navigation UI.
 
-<!-- <p align="center">
+<p align="center">
 <img src="screenshot.png" style="width:528px;max-width: 100%;">
-</p> -->
+</p>
 
 ## Features
 
