@@ -14,7 +14,7 @@ A guessing game to discover how to use a view model.
 - adding messages to logcat.
 - holding the result of the game in a second view model via a factory class.
 - using live data.
-- protecting properties and methods in a view model.
+- restricting direct access to a view model's proerties using backing properties.
 - adding a game over property.
 
 Based on [Head First Android Development: A Brain-Friendly Guide](https://www.amazon.com/Head-First-Android-Development-Brain-Friendly/dp/1449362184) by David Griffiths and Dawn Griffiths (2021).
