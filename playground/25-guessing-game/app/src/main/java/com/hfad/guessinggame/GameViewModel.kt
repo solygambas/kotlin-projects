@@ -1,18 +1,19 @@
 package com.hfad.guessinggame
 
 import android.util.Log
+import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
 class GameViewModel: ViewModel() {
     private val words = listOf("Android", "Activity", "Fragment")
     private val secretWord = words.random().uppercase()
-    var secretWordDisplay = ""
+    val secretWordDisplay = MutableLiveData<String>()
     var correctGuesses = ""
-    var incorrectGuesses = ""
-    var livesLeft = 8
+    val incorrectGuesses = MutableLiveData<String>("")
+    val livesLeft = MutableLiveData<Int>(8)
 
     init {
-        secretWordDisplay = deriveSecretWordDisplay()
+        secretWordDisplay.value = deriveSecretWordDisplay()
     }
 
     override fun onCleared() {
@@ -37,17 +38,17 @@ class GameViewModel: ViewModel() {
         if (guess.length == 1) {
             if (secretWord.contains(guess)) {
                 correctGuesses += guess
-                secretWordDisplay = deriveSecretWordDisplay()
+                secretWordDisplay.value = deriveSecretWordDisplay()
             } else {
-                incorrectGuesses += "$guess "
-                livesLeft--
+                incorrectGuesses.value += "$guess "
+                livesLeft.value = livesLeft.value?.minus(1)
             }
         }
     }
 
-    fun isWon() = secretWord.equals(secretWordDisplay, true)
+    fun isWon() = secretWord.equals(secretWordDisplay.value, true)
 
-    fun isLost() = livesLeft <= 0
+    fun isLost() = livesLeft.value ?: 0 <= 0
 
     fun wonLostMessage() : String {
         var message = ""
