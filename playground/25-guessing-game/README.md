@@ -1,6 +1,6 @@
 # Guessing Game
 
-A guessing game to discover how to use a view model.
+A guessing game to discover how to use view models, in conjunction with live data and data binding.
 
 <p align="center">
 <img src="screenshot.png" style="width:528px;max-width: 100%;">
@@ -16,5 +16,7 @@ A guessing game to discover how to use a view model.
 - using live data.
 - restricting direct access to a view model's proerties using backing properties.
 - adding a game over property.
+- implementing data binding.
+- using data binding to call methods.
 
 Based on [Head First Android Development: A Brain-Friendly Guide](https://www.amazon.com/Head-First-Android-Development-Brain-Friendly/dp/1449362184) by David Griffiths and Dawn Griffiths (2021).

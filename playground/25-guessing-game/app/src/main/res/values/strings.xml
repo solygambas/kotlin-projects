@@ -3,4 +3,7 @@
     <string name="start_new_game">Start new game</string>
     <string name="guess_a_letter">Guess a letter</string>
     <string name="guess">Guess!</string>
+    <string name="lives_left">You have %d lives left</string>
+    <string name="incorrect_guesses">Incorrect guesses: %s</string>
+    <string name="finish_game">Finish Game</string>
 </resources>
