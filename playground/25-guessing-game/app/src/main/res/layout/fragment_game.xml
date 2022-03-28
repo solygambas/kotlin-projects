@@ -33,7 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="16sp"
-        android:hint="Guess a letter"
+        android:hint="@string/guess_a_letter"
         android:inputType="text"
         android:maxLength="1" />
 
@@ -42,6 +42,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Guess!" />
+        android:text="@string/guess" />
 
 </LinearLayout>
