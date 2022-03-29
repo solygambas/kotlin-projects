@@ -1,6 +1,6 @@
 # Todo List
 
-A basic todo list Android app using Kotlin.
+A basic todo list app using Kotlin.
 
 <p align="center">
 <img src="screenshot.png" style="width:528px;max-width: 100%;">

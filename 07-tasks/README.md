@@ -1,6 +1,6 @@
 # Tasks
 
-A to do list using MVVM design pattern and Room database.
+A to do list using the MVVM design pattern and a Room database.
 
 <!-- <p align="center">
 <img src="screenshot.png" style="width:528px;max-width: 100%;">
@@ -8,8 +8,10 @@ A to do list using MVVM design pattern and Room database.
 
 ## Features
 
-- setting up the app.
-- writing the database code.
+- setting up the app with the Model-View-ViewModel architecture pattern.
+- creating a database class.
+- defining data classes for the table.
+- using an interface for data access.
 - inserting task records.
 - displaying a list of task records.
 
