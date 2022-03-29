@@ -12,7 +12,7 @@ data class Task(
 
     @ColumnInfo(name = "task_name")
     var taskName: String = "",
-    
+
     @ColumnInfo(name = "task_done")
     var taskDone: Boolean = false
 )

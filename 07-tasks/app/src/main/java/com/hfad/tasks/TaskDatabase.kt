@@ -9,10 +9,9 @@ import androidx.room.RoomDatabase
 abstract class TaskDatabase : RoomDatabase() {
     abstract val taskDao: TaskDao
 
-    companion object
+    companion object {
         @Volatile
         private var INSTANCE: TaskDatabase? = null
-
         fun getInstance(context: Context): TaskDatabase {
             synchronized(this) {
                 var instance = INSTANCE
@@ -27,4 +26,5 @@ abstract class TaskDatabase : RoomDatabase() {
                 return instance
             }
         }
+    }
 }
