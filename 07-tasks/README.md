@@ -13,6 +13,6 @@ A to do list using the MVVM design pattern and a Room database.
 - defining data classes for the table.
 - using an interface for data access.
 - inserting task records.
-- displaying a list of task records.
+- displaying a list of task records with Transformations.map().
 
 Based on [Head First Android Development: A Brain-Friendly Guide](https://www.amazon.com/Head-First-Android-Development-Brain-Friendly/dp/1449362184) by David Griffiths and Dawn Griffiths (2021).

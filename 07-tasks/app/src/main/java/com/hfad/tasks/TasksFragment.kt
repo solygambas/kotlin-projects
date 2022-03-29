@@ -11,6 +11,7 @@ import com.hfad.tasks.databinding.FragmentTasksBinding
 class TasksFragment : Fragment() {
     private var _binding: FragmentTasksBinding? = null
     private val binding get() = _binding!!
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View? {
@@ -22,11 +23,14 @@ class TasksFragment : Fragment() {
         val viewModel = ViewModelProvider(
             this, viewModelFactory).get(TasksViewModel::class.java)
         binding.viewModel = viewModel
+        // respond to live data updates
         binding.lifecycleOwner = viewLifecycleOwner
         return view
     }
+
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
     }
+
 }
