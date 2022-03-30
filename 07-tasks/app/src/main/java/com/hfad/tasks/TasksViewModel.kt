@@ -1,6 +1,6 @@
 package com.hfad.tasks
 
-import androidx.lifecycle.Transformations
+//import androidx.lifecycle.Transformations
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.launch
@@ -8,10 +8,10 @@ import kotlinx.coroutines.launch
 class TasksViewModel(val dao: TaskDao) : ViewModel() {
     var newTaskName = ""
 
-    private val tasks = dao.getAll()
-    val tasksString = Transformations.map(tasks) {
+    val tasks = dao.getAll()
+    /*val tasksString = Transformations.map(tasks) {
         tasks -> formatTasks(tasks)
-    }
+    }*/
 
     fun addTask() {
         viewModelScope.launch {
@@ -21,7 +21,7 @@ class TasksViewModel(val dao: TaskDao) : ViewModel() {
         }
     }
 
-    fun formatTasks(tasks: List<Task>): String {
+    /*fun formatTasks(tasks: List<Task>): String {
         return tasks.fold("") {
             str, item -> str + '\n' + formatTask(item)
         }
@@ -32,5 +32,5 @@ class TasksViewModel(val dao: TaskDao) : ViewModel() {
         str += '\n' + "Name: ${task.taskName}"
         str += '\n' + "Complete: ${task.taskDone}" + '\n'
         return str
-    }
+    }*/
 }

@@ -1,6 +1,6 @@
 # Tasks
 
-A to do list using the MVVM design pattern and a Room database.
+A to do list using the MVVM design pattern, a Room database and a recycler view.
 
 <!-- <p align="center">
 <img src="screenshot.png" style="width:528px;max-width: 100%;">
@@ -14,5 +14,7 @@ A to do list using the MVVM design pattern and a Room database.
 - using an interface for data access.
 - inserting task records.
 - displaying a list of task records with Transformations.map().
+- creating a recycler view.
+- updating the recycler view to display a grid of cards.
 
 Based on [Head First Android Development: A Brain-Friendly Guide](https://www.amazon.com/Head-First-Android-Development-Brain-Friendly/dp/1449362184) by David Griffiths and Dawn Griffiths (2021).
