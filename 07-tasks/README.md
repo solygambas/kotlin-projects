@@ -16,5 +16,7 @@ A to do list using the MVVM design pattern, a Room database and a recycler view.
 - displaying a list of task records with Transformations.map().
 - creating a recycler view.
 - updating the recycler view to display a grid of cards.
+- making the recycler view use DiffUtil to compares items in the list.
+- implementing data binding in the recycler view's layout.
 
 Based on [Head First Android Development: A Brain-Friendly Guide](https://www.amazon.com/Head-First-Android-Development-Brain-Friendly/dp/1449362184) by David Griffiths and Dawn Griffiths (2021).
