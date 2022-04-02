@@ -2,9 +2,9 @@
 
 A to do list using the MVVM design pattern, a Room database and a recycler view.
 
-<!-- <p align="center">
+<p align="center">
 <img src="screenshot.png" style="width:528px;max-width: 100%;">
-</p> -->
+</p>
 
 ## Features
 
