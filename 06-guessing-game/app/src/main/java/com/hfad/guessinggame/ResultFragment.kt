@@ -17,7 +17,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.ComposeView
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.sp
-import androidx.lifecycle.ViewModelProvider
+//import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.findNavController
 //import com.hfad.guessinggame.databinding.FragmentResultBinding
 
@@ -29,8 +30,8 @@ import androidx.navigation.findNavController
 class ResultFragment : Fragment() {
 /*    private var _binding: FragmentResultBinding? = null
     private val binding get() = _binding!!*/
-    lateinit var viewModel: ResultViewModel
-    lateinit var viewModelFactory: ResultViewModelFactory
+    //lateinit var viewModel: ResultViewModel
+    //lateinit var viewModelFactory: ResultViewModelFactory
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -50,8 +51,8 @@ class ResultFragment : Fragment() {
         val view = binding.root*/
 
         val result = ResultFragmentArgs.fromBundle(requireArguments()).result
-        viewModelFactory = ResultViewModelFactory(result)
-        viewModel = ViewModelProvider(this, viewModelFactory).get(ResultViewModel::class.java)
+        /*viewModelFactory = ResultViewModelFactory(result)
+        viewModel = ViewModelProvider(this, viewModelFactory).get(ResultViewModel::class.java)*/
         //binding.wonLost.text = viewModel.result
         /*binding.resultViewModel = viewModel // set the layout's data binding variable
 
@@ -63,7 +64,7 @@ class ResultFragment : Fragment() {
             setContent {
                 MaterialTheme {
                     Surface {
-                        view?.let { ResultFragmentContent(it, viewModel) }
+                        view?.let { ResultFragmentContent(it, result) }
                     }
                 }
             }
@@ -85,7 +86,11 @@ class ResultFragment : Fragment() {
     }
 
     @Composable
-    fun ResultFragmentContent(view: View, viewModel: ResultViewModel) {
+    fun ResultFragmentContent(view: View, result: String) {
+        val viewModel: ResultViewModel = viewModel(
+            factory = ResultViewModelFactory(result)
+        )
+
         Column(modifier = Modifier.fillMaxWidth(),
             horizontalAlignment = Alignment.CenterHorizontally) {
             ResultText(viewModel.result)

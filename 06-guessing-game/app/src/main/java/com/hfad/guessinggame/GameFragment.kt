@@ -20,6 +20,7 @@ import androidx.compose.ui.unit.em
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.findNavController
 //import com.hfad.guessinggame.databinding.FragmentGameBinding
 
@@ -81,7 +82,7 @@ class GameFragment : Fragment() {
             setContent {
                 MaterialTheme {
                     Surface {
-                        GameFragmentContent(viewModel)
+                        GameFragmentContent()
                     }
                 }
             }
@@ -136,8 +137,9 @@ class GameFragment : Fragment() {
     }
 
     @Composable
-    fun GameFragmentContent(viewModel: GameViewModel) {
+    fun GameFragmentContent() {
         val guess = remember { mutableStateOf("") }
+        val viewModel: GameViewModel = viewModel()
 
         Column(modifier = Modifier.fillMaxWidth(),
             horizontalAlignment = Alignment.CenterHorizontally) {
