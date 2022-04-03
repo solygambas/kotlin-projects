@@ -9,8 +9,7 @@
     <fragment
         android:id="@+id/gameFragment"
         android:name="com.hfad.guessinggame.GameFragment"
-        android:label="fragment_game"
-        tools:layout="@layout/fragment_game" >
+        android:label="fragment_game" >
         <action
             android:id="@+id/action_gameFragment_to_resultFragment"
             app:destination="@id/resultFragment"
