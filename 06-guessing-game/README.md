@@ -18,5 +18,6 @@ A guessing game to discover how to use view models, in conjunction with live dat
 - adding a game over property.
 - implementing data binding.
 - using data binding to call methods.
+- migrating the app to Compose.
 
 Based on [Head First Android Development: A Brain-Friendly Guide](https://www.amazon.com/Head-First-Android-Development-Brain-Friendly/dp/1449362184) by David Griffiths and Dawn Griffiths (2021).
