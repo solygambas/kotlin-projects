@@ -86,6 +86,13 @@ class ResultFragment : Fragment() {
     }
 
     @Composable
+    fun ShareButton(clicked: () -> Unit) {
+        Button(onClick = clicked) {
+            Text("Share your result")
+        }
+    }
+
+    @Composable
     fun ResultFragmentContent(view: View, result: String) {
         val viewModel: ResultViewModel = viewModel(
             factory = ResultViewModelFactory(result)
@@ -96,6 +103,10 @@ class ResultFragment : Fragment() {
             ResultText(viewModel.result)
             NewGameButton {
                 view.findNavController().navigate(R.id.action_resultFragment_to_gameFragment)
+            }
+            ShareButton {
+                val shareIntent = viewModel.shareResult()
+                startActivity(shareIntent)
             }
         }
     }
