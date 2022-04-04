@@ -8,9 +8,10 @@ class ResultViewModel(finalResult: String): ViewModel() {
     val result = finalResult
 
     fun shareResult() : Intent {
+        val myResult = result.replace("You", "I")
         val sendIntent: Intent = Intent().apply {
             action = Intent.ACTION_SEND
-            putExtra(Intent.EXTRA_TEXT, result)
+            putExtra(Intent.EXTRA_TEXT, myResult)
             type = "text/plain"
         }
         return Intent.createChooser(sendIntent, null)

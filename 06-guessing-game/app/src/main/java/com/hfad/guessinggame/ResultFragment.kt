@@ -88,7 +88,7 @@ class ResultFragment : Fragment() {
     @Composable
     fun ShareButton(clicked: () -> Unit) {
         Button(onClick = clicked) {
-            Text("Share your result")
+            Text("Share Your Result")
         }
     }
 
