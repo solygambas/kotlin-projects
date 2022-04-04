@@ -11,7 +11,7 @@ A camera app, using CameraX to show a viewfinder and take photos.
 - adding the CameraX dependencies.
 - requesting the necessary permissions.
 - customizing the app icon.
-- - displaying the camera preview in an activity.
+- displaying the camera preview in an activity.
 - taking a photo and saving it to storage.
 - analyzing frames from the camera in real time.
 - capturing video to MediaStore.
