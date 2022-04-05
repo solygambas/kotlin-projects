@@ -12,7 +12,7 @@
 | 06  | [Guessing Game](https://github.com/solygambas/kotlin-projects/tree/main/06-guessing-game)                 | A guessing game to discover how to use view models with live data and data binding. |
 | 07  | [Tasks](https://github.com/solygambas/kotlin-projects/tree/main/07-tasks)                                 | A to do list using the MVVM design pattern, a Room database and a recycler view.    |
 | 08  | [Temperature Converter](https://github.com/solygambas/kotlin-projects/tree/main/08-temperature-converter) | A tool to convert temperatures from Celsius to Fahrenheit, using Compose.           |
-| 09  | [CameraXApp](https://github.com/solygambas/kotlin-projects/tree/main/09-camerax-app)                      | A camera app, using CameraX to show a viewfinder and take photos.                   |
+| 09  | [CameraXApp](https://github.com/solygambas/kotlin-projects/tree/main/09-camerax-app)                      | A camera app, using CameraX to show a viewfinder, take photos and capture videos.   |
 
 Check the [playground](https://github.com/solygambas/kotlin-projects/tree/main/playground) if you want to learn Kotlin core concepts first.
 

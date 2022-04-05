@@ -1,6 +1,6 @@
 # CameraXApp
 
-A camera app, using CameraX to show a viewfinder and take photos.
+A camera app, using CameraX to show a viewfinder, take photos and capture videos.
 
 <!-- <p align="center">
 <img src="screenshot.png" style="width:528px;max-width: 100%;">
