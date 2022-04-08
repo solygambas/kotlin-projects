@@ -1,6 +1,6 @@
 # MarsPhotos
 
-An app that shows images of Mars surface, using Retrofit to make REST requests.
+An app to learn how to get data from an API, using Retrofit to make REST requests.
 
 <p align="center">
 <img src="screenshot.png" style="width:528px;max-width: 100%;">
