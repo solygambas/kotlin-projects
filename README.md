@@ -1,6 +1,6 @@
 # Kotlin Projects
 
-9 projects to learn the fundamentals of building Android apps using Kotlin.
+10 projects to learn the fundamentals of building Android apps using Kotlin.
 
 | #   | Project                                                                                                   | Description                                                                         |
 | --- | --------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
