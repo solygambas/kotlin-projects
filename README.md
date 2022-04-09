@@ -1,6 +1,6 @@
 # Kotlin Projects
 
-10 projects to learn the fundamentals of building Android apps using Kotlin.
+11 projects to learn the fundamentals of building Android apps using Kotlin.
 
 | #   | Project                                                                                                   | Description                                                                         |
 | --- | --------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
@@ -14,6 +14,7 @@
 | 08  | [Temperature Converter](https://github.com/solygambas/kotlin-projects/tree/main/08-temperature-converter) | A tool to convert temperatures from Celsius to Fahrenheit, using Compose.           |
 | 09  | [CameraXApp](https://github.com/solygambas/kotlin-projects/tree/main/09-camerax-app)                      | A camera app, using CameraX to show a viewfinder, take photos and capture videos.   |
 | 10  | [MarsPhotos](https://github.com/solygambas/kotlin-projects/tree/main/10-mars-photos)                      | An app to learn how to get data from an API, using Retrofit to make REST requests.  |
+| 11  | [Blur-O-Matic](https://github.com/solygambas/kotlin-projects/tree/main/11-blur-o-matic)                   | An app that blurs photos and saves the result to a file, using WorkManager.         |
 
 Check the [playground](https://github.com/solygambas/kotlin-projects/tree/main/playground) if you want to learn Kotlin core concepts first.
 
@@ -21,4 +22,4 @@ The first project is based on [Build A Simple Android App With Kotlin](https://w
 
 The next projects are from [Head First Android Development: A Brain-Friendly Guide](https://www.amazon.com/Head-First-Android-Development-Brain-Friendly/dp/1449362184) by David Griffiths and Dawn Griffiths (2021).
 
-The last two projects are from [Google Codelabs](https://codelabs.developers.google.com/) (2022).
+The last three projects are from [Google Codelabs](https://codelabs.developers.google.com/) (2022).
