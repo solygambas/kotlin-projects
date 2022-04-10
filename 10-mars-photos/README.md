@@ -17,4 +17,7 @@ An app to learn how to get data from an API, using Retrofit to make REST request
 - displaying a grid of images with a RecyclerView.
 - handling potential errors.
 
-Based on [Get data from the internet](https://developer.android.com/codelabs/basic-android-kotlin-training-getting-data-internet) by Google Codelabs (2022).
+Based on 2 tutorials by Google Codelabs (2022):
+
+- [Get data from the internet](https://developer.android.com/codelabs/basic-android-kotlin-training-getting-data-internet)
+- [Loading and displaying images from the internet](https://codelabs.developers.google.com/codelabs/kotlin-android-training-internet-images/index.html?index=..%2F..android-kotlin-fundamentals#0)

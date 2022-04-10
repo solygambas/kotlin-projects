@@ -36,9 +36,14 @@ class OverviewViewModel : ViewModel() {
     val status: LiveData<String> = _status
 
     // LiveData for a single MarsProperty object
-    private val _property = MutableLiveData<MarsPhoto>()
+    /*private val _property = MutableLiveData<MarsPhoto>()
     val property: LiveData<MarsPhoto>
-        get() = _property
+        get() = _property*/
+
+    // LiveData for a list of images
+    private val _properties = MutableLiveData<List<MarsPhoto>>()
+    val properties: LiveData<List<MarsPhoto>>
+        get() = _properties
 
     /**
      * Call getMarsPhotos() on init so we can display status immediately.
@@ -54,11 +59,13 @@ class OverviewViewModel : ViewModel() {
     private fun getMarsPhotos() {
         viewModelScope.launch {
             try {
-                val listResult = MarsApi.retrofitService.getPhotos()
-                _status.value = "Success: ${listResult.size} Mars photos retrieved"
-                if (listResult.isNotEmpty()) {
-                    _property.value = listResult[0]
-                }
+//                val listResult = MarsApi.retrofitService.getPhotos()
+//                _status.value = "Success: ${listResult.size} Mars photos retrieved"
+                /*if (listResult.isNotEmpty()) {
+                    //_property.value = listResult[0]
+                }*/
+                _properties.value = MarsApi.retrofitService.getPhotos()
+                _status.value = "Success: Mars properties retrived"
             } catch (e: Exception) {
                 _status.value = "Failure: ${e.message}"
             }
