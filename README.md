@@ -22,4 +22,4 @@ The first project is based on [Build A Simple Android App With Kotlin](https://w
 
 The next projects are from [Head First Android Development: A Brain-Friendly Guide](https://www.amazon.com/Head-First-Android-Development-Brain-Friendly/dp/1449362184) by David Griffiths and Dawn Griffiths (2021).
 
-The last three projects are from [Google Codelabs](https://codelabs.developers.google.com/) (2022).
+The last three projects are from [Android Kotlin Fundamentals](https://developer.android.com/courses/kotlin-android-fundamentals/overview) and [Advanced Android in Kotlin](https://developer.android.com/courses/kotlin-android-advanced/overview) by Google Codelabs (2022).

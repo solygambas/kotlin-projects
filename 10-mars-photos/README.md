@@ -12,5 +12,9 @@ An app to learn how to get data from an API, using Retrofit to make REST request
 - implementing a network layer for the app using the Retrofit library.
 - parsing the JSON response into the app's LiveData objects with the Moshi library.
 - using Retrofit's support for coroutines to simplify the code.
+- using the Glide library to load and display an image from a web URL.
+- adding a loading animation and error icon.
+- displaying a grid of images with a RecyclerView.
+- handling potential errors.
 
 Based on [Get data from the internet](https://developer.android.com/codelabs/basic-android-kotlin-training-getting-data-internet) by Google Codelabs (2022).
