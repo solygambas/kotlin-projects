@@ -21,6 +21,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.android.marsphotos.network.MarsApi
+import com.example.android.marsphotos.network.MarsApiFilter
 import com.example.android.marsphotos.network.MarsPhoto
 import kotlinx.coroutines.launch
 
@@ -52,14 +53,14 @@ class OverviewViewModel : ViewModel() {
      * Call getMarsPhotos() on init so we can display status immediately.
      */
     init {
-        getMarsPhotos()
+        getMarsPhotos(MarsApiFilter.SHOW_ALL)
     }
 
     /**
      * Gets Mars photos information from the Mars API Retrofit service and updates the
      * [MarsPhoto] [List] [LiveData].
      */
-    private fun getMarsPhotos() {
+    private fun getMarsPhotos(filter: MarsApiFilter) {
         viewModelScope.launch {
             _status.value = MarsApiStatus.LOADING
             try {
@@ -68,12 +69,17 @@ class OverviewViewModel : ViewModel() {
                 /*if (listResult.isNotEmpty()) {
                     //_property.value = listResult[0]
                 }*/
-                _properties.value = MarsApi.retrofitService.getPhotos()
+                _properties.value = MarsApi.retrofitService.getPhotos(filter.value)
                 _status.value = MarsApiStatus.DONE
             } catch (e: Exception) {
                 _status.value = MarsApiStatus.ERROR
                 _properties.value = ArrayList()
             }
         }
+    }
+
+    // filter
+    fun updateFilter(filter: MarsApiFilter) {
+        getMarsPhotos(filter)
     }
 }
