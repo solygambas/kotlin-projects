@@ -38,7 +38,7 @@
                 android:layout_marginTop="16dp"
                 android:textColor="#de000000"
                 android:textSize="39sp"
-                android:text="nothing"
+                android:text="@{viewModel.displayPropertyType}"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/main_photo_image"
                 tools:text="To Rent" />
@@ -50,7 +50,7 @@
                 android:layout_marginTop="8dp"
                 android:textColor="#de000000"
                 android:textSize="20sp"
-                android:text="nothing"
+                android:text="@{viewModel.displayPropertyPrice}"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/property_type_text"
                 tools:text="$100,000" />
