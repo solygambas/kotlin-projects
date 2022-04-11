@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/ic_broken_image.xml" value="0.1645" />
+        <entry key="app/src/main/res/drawable/ic_for_sale_outline.xml" value="0.1645" />
         <entry key="app/src/main/res/layout/grid_view_item.xml" value="0.6521084337349398" />
       </map>
     </option>
