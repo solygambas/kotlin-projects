@@ -1,6 +1,6 @@
 # Kotlin Projects
 
-12 projects to learn the fundamentals of building Android apps using Kotlin.
+13 projects to learn the fundamentals of building Android apps using Kotlin.
 
 | #   | Project                                                                                                   | Description                                                                         |
 | --- | --------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
@@ -16,6 +16,7 @@
 | 10  | [MarsPhotos](https://github.com/solygambas/kotlin-projects/tree/main/10-mars-photos)                      | An app to learn how to get data from an API, using Retrofit to make REST requests.  |
 | 11  | [Blur-O-Matic](https://github.com/solygambas/kotlin-projects/tree/main/11-blur-o-matic)                   | An app that blurs photos and saves the result to a file, using WorkManager.         |
 | 12  | [DevBytes](https://github.com/solygambas/kotlin-projects/tree/main/12-devbytes)                           | A list of DevByte videos, using offline caching.                                    |
+| 13  | [GDG Finder](https://github.com/solygambas/kotlin-projects/tree/main/13-gdgfinder)                        | An app to learn the basics of Android's styling system.                             |
 
 Check the [playground](https://github.com/solygambas/kotlin-projects/tree/main/playground) if you want to learn Kotlin core concepts first.
 
@@ -23,4 +24,4 @@ The first project is based on [Build A Simple Android App With Kotlin](https://w
 
 The next projects are from [Head First Android Development: A Brain-Friendly Guide](https://www.amazon.com/Head-First-Android-Development-Brain-Friendly/dp/1449362184) by David Griffiths and Dawn Griffiths (2021).
 
-The last four projects are from [Android Kotlin Fundamentals](https://developer.android.com/courses/kotlin-android-fundamentals/overview) and [Advanced Android in Kotlin](https://developer.android.com/courses/kotlin-android-advanced/overview) by Google Codelabs (2022).
+The last five projects are from [Android Kotlin Fundamentals](https://developer.android.com/courses/kotlin-android-fundamentals/overview) and [Advanced Android in Kotlin](https://developer.android.com/courses/kotlin-android-advanced/overview) by Google Codelabs (2022).
