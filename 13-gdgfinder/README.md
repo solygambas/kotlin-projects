@@ -11,6 +11,10 @@ An app to learn the basics of Android's styling system.
 - using view attributes for styling.
 - using themes and downloadable fonts.
 - using styles.
+- adding a floating action button.
+- changing the toolbar theme.
+- extracting and using dimensions.
+- creating and using custom Material color schemes.
 
 Based on 3 tutorials by Google Codelabs (2022):
 
