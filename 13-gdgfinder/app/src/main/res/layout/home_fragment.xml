@@ -35,7 +35,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:clipToPadding="true"
-                android:paddingBottom="16dp"
+                android:paddingBottom="@dimen/spacing_normal"
                 tools:context=".home.HomeFragment">
 
                 <ImageView
@@ -53,7 +53,7 @@
                     android:id="@+id/title"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="@dimen/spacing_normal"
                     android:text="@string/about_google_developer_groups"
                     android:textAppearance="?attr/textAppearanceHeadline5"
                     app:layout_constraintEnd_toStartOf="@+id/end_guideline"
@@ -95,7 +95,7 @@
                     android:id="@+id/end_image"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="@dimen/spacing_normal"
                     android:scaleType="centerCrop"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintDimensionRatio="3:1.5"
@@ -109,21 +109,21 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    app:layout_constraintGuide_begin="16dp" />
+                    app:layout_constraintGuide_begin="@dimen/spacing_normal" />
 
                 <androidx.constraintlayout.widget.Guideline
                     android:id="@+id/end_guideline"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    app:layout_constraintGuide_end="26dp" />
+                    app:layout_constraintGuide_end="@dimen/spacing_normal" />
             </androidx.constraintlayout.widget.ConstraintLayout>
         </androidx.core.widget.NestedScrollView>
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|end"
-            android:layout_margin="16dp"
+            android:layout_margin="@dimen/spacing_normal"
             app:srcCompat="@drawable/ic_gdg"
             android:onClick="@{() -> viewModel.onFabClicked()}"/>
     </androidx.coordinatorlayout.widget.CoordinatorLayout>

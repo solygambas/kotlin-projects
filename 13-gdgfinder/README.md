@@ -14,7 +14,7 @@ An app to learn the basics of Android's styling system.
 - adding a floating action button.
 - changing the toolbar theme.
 - extracting and using dimensions.
-- creating and using custom Material color schemes.
+- creating and using custom Material color schemes with the [Color Tool](https://material.io/tools/color/).
 
 Based on 3 tutorials by Google Codelabs (2022):
 
