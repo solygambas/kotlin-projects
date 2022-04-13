@@ -15,6 +15,11 @@ An app to learn the basics of Android's styling system.
 - changing the toolbar theme.
 - extracting and using dimensions.
 - creating and using custom Material color schemes with the [Color Tool](https://material.io/tools/color/).
+- adding support for right-to-left (RTL) languages.
+- scanning for accessibility.
+- designing for TalkBack.
+- using chips to filter regions.
+- supporting night mode.
 
 Based on 3 tutorials by Google Codelabs (2022):
 

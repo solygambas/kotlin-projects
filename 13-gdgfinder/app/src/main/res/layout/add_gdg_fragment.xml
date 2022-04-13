@@ -42,10 +42,10 @@
                 android:layout_marginTop="@dimen/spacing_normal"
                 android:layout_marginEnd="@dimen/spacing_normal"
                 android:text="@string/add_gdg"
-                android:textColor="#AAAAAA"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                android:contentDescription="@string/add_gdg"/>
 
             <ImageView
                 android:id="@+id/imageView"
@@ -59,7 +59,8 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textViewIntro"
                 app:srcCompat="@drawable/behind"
-                tools:src="@tools:sample/avatars" />
+                tools:src="@tools:sample/avatars"
+                android:contentDescription="@string/stage_image_description" />
 
 
             <EditText
@@ -74,7 +75,8 @@
                 app:layout_constraintBottom_toTopOf="@+id/EditTextEmail"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imageView"></EditText>
+                app:layout_constraintTop_toBottomOf="@+id/imageView"
+                android:hint="@string/your_name_label"></EditText>
 
             <EditText
                 android:id="@+id/EditTextEmail"
@@ -88,7 +90,8 @@
                 app:layout_constraintBottom_toTopOf="@+id/EditTextCity"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/EditTextName"></EditText>
+                app:layout_constraintTop_toBottomOf="@+id/EditTextName"
+                android:hint="@string/email_label"></EditText>
 
             <EditText
                 android:id="@+id/EditTextCity"
@@ -102,7 +105,8 @@
                 app:layout_constraintBottom_toTopOf="@+id/EditTextCountry"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/EditTextEmail"></EditText>
+                app:layout_constraintTop_toBottomOf="@+id/EditTextEmail"
+                android:hint="@string/city_label"></EditText>
 
             <EditText
                 android:id="@+id/EditTextCountry"
@@ -116,7 +120,8 @@
                 app:layout_constraintBottom_toTopOf="@+id/EditTextRegion"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/EditTextCity"></EditText>
+                app:layout_constraintTop_toBottomOf="@+id/EditTextCity"
+                android:hint="@string/country_label"></EditText>
 
             <EditText
                 android:id="@+id/EditTextRegion"
@@ -127,52 +132,63 @@
                 android:layout_marginEnd="32dp"
                 android:layout_marginBottom="4dp"
                 android:singleLine="true"
-                app:layout_constraintBottom_toTopOf="@+id/EditTextWhy"
+                app:layout_constraintBottom_toTopOf="@+id/contentGroup"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/EditTextCountry"></EditText>
+                app:layout_constraintTop_toBottomOf="@+id/EditTextCountry"
+                android:hint="@string/region_label"></EditText>
 
-            <TextView
-                android:id="@+id/labelTextWhy"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="32dp"
-                android:layout_marginTop="@dimen/spacing_normal"
-                android:layout_marginBottom="1dp"
-                android:text="@string/motivation"
-                app:layout_constraintBottom_toTopOf="@+id/EditTextWhy"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/EditTextRegion" />
-
-            <EditText
-                android:id="@+id/EditTextWhy"
+            <LinearLayout
+                android:id="@+id/contentGroup"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="32dp"
-                android:layout_marginTop="32dp"
-                android:layout_marginEnd="32dp"
-                android:layout_marginBottom="8dp"
-                android:ems="10"
-                android:inputType="textMultiLine"
+                android:focusable="true"
+                app:layout_constraintTop_toBottomOf="@id/EditTextRegion"
+                android:orientation="vertical"
+                app:layout_constraintStart_toStartOf="@+id/EditTextRegion"
+                app:layout_constraintEnd_toEndOf="@+id/EditTextRegion"
+                android:layout_marginTop="@dimen/spacing_normal"
                 app:layout_constraintBottom_toTopOf="@+id/button"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/EditTextRegion" />
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp">
+                <TextView
+                    android:id="@+id/labelTextWhy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/motivation"
+                    app:layout_constraintBottom_toTopOf="@+id/contentGroup"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/EditTextRegion"
+                    android:contentDescription="@string/motivation"/>
+
+                <EditText
+                    android:id="@+id/EditTextWhy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textMultiLine"
+                    app:layout_constraintBottom_toTopOf="@+id/button"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/contentGroup"
+                    android:hint="@string/enter_motivation"/>
+            </LinearLayout>
+
 
             <Button
                 android:id="@+id/button"
-                android:layout_width="40dp"
-                android:layout_height="24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginEnd="40dp"
                 android:layout_marginBottom="12dp"
-                android:backgroundTint="#00FF00"
                 android:onClick="@{() -> viewModel.onSubmitApplication()}"
-                android:text="Ok"
-                android:textColor="#FF0000"
-                android:textSize="8sp"
+                android:text="@string/submit"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/EditTextWhy" />
+                app:layout_constraintTop_toBottomOf="@+id/contentGroup"
+                android:contentDescription="@string/submit_button_description"
+                android:accessibilityLiveRegion="polite"/>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 
