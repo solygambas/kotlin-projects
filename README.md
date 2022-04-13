@@ -18,10 +18,11 @@
 | 12  | [DevBytes](https://github.com/solygambas/kotlin-projects/tree/main/12-devbytes)                           | A list of DevByte videos, using offline caching.                                    |
 | 13  | [GDG Finder](https://github.com/solygambas/kotlin-projects/tree/main/13-gdgfinder)                        | An app to learn the basics of Android's styling system.                             |
 
+These projects are adapted from various sources:
+
+- [Build A Simple Android App With Kotlin](https://www.youtube.com/watch?v=BBWyXo-3JGQ) by Philipp Lackner for Traversy Media (2021).
+- [Head First Android Development: A Brain-Friendly Guide](https://www.amazon.com/Head-First-Android-Development-Brain-Friendly/dp/1449362184) by David Griffiths and Dawn Griffiths (2021).
+- [Android Kotlin Fundamentals](https://developer.android.com/courses/kotlin-android-fundamentals/overview) by Google Codelabs (2022).
+- [Advanced Android in Kotlin](https://developer.android.com/courses/kotlin-android-advanced/overview) by Google Codelabs (2022).
+
 Check the [playground](https://github.com/solygambas/kotlin-projects/tree/main/playground) if you want to learn Kotlin core concepts first.
-
-The first project is based on [Build A Simple Android App With Kotlin](https://www.youtube.com/watch?v=BBWyXo-3JGQ) by Philipp Lackner for Traversy Media (2021).
-
-The next projects are from [Head First Android Development: A Brain-Friendly Guide](https://www.amazon.com/Head-First-Android-Development-Brain-Friendly/dp/1449362184) by David Griffiths and Dawn Griffiths (2021).
-
-The last five projects are from [Android Kotlin Fundamentals](https://developer.android.com/courses/kotlin-android-fundamentals/overview) and [Advanced Android in Kotlin](https://developer.android.com/courses/kotlin-android-advanced/overview) by Google Codelabs (2022).
