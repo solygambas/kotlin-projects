@@ -2,9 +2,9 @@
 
 An app to learn the basics of Android's styling system.
 
-<!-- <p align="center">
+<p align="center">
 <img src="screenshot.png" style="width:528px;max-width: 100%;">
-</p> -->
+</p>
 
 ## Features
 
