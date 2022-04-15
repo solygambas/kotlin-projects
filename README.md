@@ -1,6 +1,6 @@
 # Kotlin Projects
 
-13 projects to learn the fundamentals of building Android apps using Kotlin.
+14 projects to learn the fundamentals of building Android apps using Kotlin.
 
 | #   | Project                                                                                                   | Description                                                                         |
 | --- | --------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
@@ -17,6 +17,7 @@
 | 11  | [Blur-O-Matic](https://github.com/solygambas/kotlin-projects/tree/main/11-blur-o-matic)                   | An app that blurs photos and saves the result to a file, using WorkManager.         |
 | 12  | [DevBytes](https://github.com/solygambas/kotlin-projects/tree/main/12-devbytes)                           | A list of DevByte videos, using offline caching.                                    |
 | 13  | [GDG Finder](https://github.com/solygambas/kotlin-projects/tree/main/13-gdgfinder)                        | An app to learn the basics of Android's styling system.                             |
+| 14  | [Star Shower](https://github.com/solygambas/kotlin-projects/tree/main/14-star-shower)                     | An app to show how to create property animations, using ObjectAnimator.             |
 
 These projects are adapted from various sources:
 

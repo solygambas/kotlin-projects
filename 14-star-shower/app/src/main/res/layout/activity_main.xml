@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2019 The Android Open Source Project
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <Button
+            android:text="@string/rotate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rotateButton" app:layout_constraintEnd_toStartOf="@+id/translateButton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_margin="@dimen/standard_margin" android:textSize="12sp"/>
+
+    <Button
+            android:text="@string/translate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/translateButton" app:layout_constraintEnd_toStartOf="@+id/scaleButton"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/rotateButton"
+            android:layout_margin="@dimen/standard_margin" android:textSize="12sp"
+            android:layout_marginStart="14dp" android:layout_marginTop="16dp"/>
+
+    <Button
+            android:text="@string/scale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scaleButton"
+            app:layout_constraintEnd_toStartOf="@+id/fadeButton"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/translateButton"
+            android:layout_margin="@dimen/standard_margin" android:textSize="12sp"
+            android:layout_marginStart="15dp" android:layout_marginTop="@dimen/standard_margin"/>
+
+    <Button
+            android:text="@string/fade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fadeButton" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/scaleButton"
+            android:layout_margin="@dimen/standard_margin" android:textSize="12sp"
+            android:layout_marginTop="@dimen/standard_margin" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="15dp"/>
+
+    <Button
+            android:text="@string/shower"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" android:id="@+id/showerButton"
+            app:layout_constraintTop_toBottomOf="@+id/rotateButton"
+            app:layout_constraintStart_toStartOf="@+id/scaleButton"
+            android:layout_marginEnd="@dimen/standard_margin"
+            android:layout_marginBottom="@dimen/standard_margin"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+            android:text="@string/sky_color"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@+id/translateButton"
+            app:layout_constraintTop_toBottomOf="@+id/rotateButton"
+            android:id="@+id/colorizeButton"
+            android:layout_marginStart="@dimen/standard_margin"
+            android:layout_marginBottom="@dimen/standard_margin"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/black"
+            app:layout_constraintTop_toBottomOf="@+id/showerButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_star"
+                android:id="@+id/star"
+                android:layout_gravity="center"/>
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
