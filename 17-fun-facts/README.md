@@ -1,10 +1,10 @@
 # Fun Facts
 
-An app that displays fun facts about Android, using FirebaseUI for authentication.
+An app that displays fun facts about Android, using FirebaseUI Authentication.
 
-<!-- <p align="center">
+<p align="center">
 <img src="screenshot.png" style="width:528px;max-width: 100%;">
-</p> -->
+</p>
 
 ## Features
 
@@ -12,5 +12,11 @@ An app that displays fun facts about Android, using FirebaseUI for authenticatio
 - implementing the login feature.
 - adding a custom greeting for users who are logged in.
 - implementing the logout feature.
+- enabling settings screen.
+- redirecting the user to the login screen if necessary.
+- handling navigation after successful login.
 
-Based on [Advanced Android in Kotlin 06.1: Android Login with FirebaseUI](https://developer.android.com/codelabs/advanced-android-kotlin-training-login#0) by Google Codelabs (2022).
+Based on 2 tutorials by Google Codelabs (2022):
+
+- [Android Login with FirebaseUI](https://developer.android.com/codelabs/advanced-android-kotlin-training-login#0)
+- [Android Conditional Navigation with Login](https://codelabs.developers.google.com/codelabs/advanced-android-kotlin-training-login-navigation)
