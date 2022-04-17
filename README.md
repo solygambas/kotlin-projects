@@ -1,6 +1,6 @@
 # Kotlin Projects
 
-15 projects to learn the fundamentals of building Android apps using Kotlin.
+16 projects to learn the fundamentals of building Android apps using Kotlin.
 
 | #   | Project                                                                                                   | Description                                                                         |
 | --- | --------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
@@ -19,6 +19,7 @@
 | 13  | [GDG Finder](https://github.com/solygambas/kotlin-projects/tree/main/13-gdgfinder)                        | An app to learn the basics of Android's styling system.                             |
 | 14  | [Star Shower](https://github.com/solygambas/kotlin-projects/tree/main/14-star-shower)                     | An app to show how to create property animations, using ObjectAnimator.             |
 | 15  | [Milky Way](https://github.com/solygambas/kotlin-projects/tree/main/15-milky-way)                         | An app to learn how to finely customize an animation, using MotionLayout.           |
+| 16  | [Milky Way](https://github.com/solygambas/kotlin-projects/tree/main/16-sports-app)                        | A basic app to introduce to adaptative layouts.                                     |
 
 These projects are adapted from various sources:
 
