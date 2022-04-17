@@ -10,9 +10,9 @@ An app to learn how to finely customize an animation, using MotionLayout.
 
 - defining an animation with ConstraintSets and MotionLayout.
 - animating based on drag events.
-- change the animation with KeyPosition.
-- change attributes with KeyAttribute.
-- run animations with code.
+- changing the animation with KeyPosition.
+- changing attributes with KeyAttribute.
+- running animations with code.
 - animating collapsible headers with MotionLayout.
 
 Based on [Advanced Android in Kotlin 03.2: Animation with MotionLayout](https://codelabs.developers.google.com/codelabs/motion-layout#0) by Google Codelabs (2022).
