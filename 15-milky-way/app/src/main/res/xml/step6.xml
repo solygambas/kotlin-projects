@@ -65,7 +65,28 @@
                     android:alpha="0.0"
             />
 
-            <!-- TODO Add Custom attributes here -->
+            <!-- Custom attributes -->
+            <KeyAttribute
+                motion:framePosition="0"
+                motion:motionTarget="@id/moon">
+                <CustomAttribute
+                    motion:attributeName="colorFilter"
+                    motion:customColorValue="#FFFFFF" />
+            </KeyAttribute>
+            <KeyAttribute
+                motion:framePosition="50"
+                motion:motionTarget="@id/moon">
+                <CustomAttribute
+                    motion:attributeName="colorFilter"
+                    motion:customColorValue="#FFB612" />
+            </KeyAttribute>
+            <KeyAttribute
+                motion:framePosition="100"
+                motion:motionTarget="@id/moon">
+                <CustomAttribute
+                    motion:attributeName="colorFilter"
+                    motion:customColorValue="#FFFFFF" />
+            </KeyAttribute>
 
         </KeyFrameSet>
     </Transition>
