@@ -26,8 +26,14 @@
                 motion:targetId="@id/moon"
                 motion:clickAction="toggle"
         />
-
-        <!-- TODO: Add KeyFrameSet and KeyPosition -->
+        <KeyFrameSet>
+            <KeyPosition
+                motion:framePosition="50"
+                motion:motionTarget="@id/moon"
+                motion:keyPositionType="parentRelative"
+                motion:percentY="0.5"
+                />
+        </KeyFrameSet>
     </Transition>
 
     <!-- Constraints to apply at the start of the animation -->
