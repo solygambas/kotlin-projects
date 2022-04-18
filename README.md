@@ -1,6 +1,6 @@
 # Kotlin Projects
 
-18 projects to learn the fundamentals of building Android apps using Kotlin.
+19 projects to learn the fundamentals of building Android apps using Kotlin.
 
 | #   | Project                                                                                                   | Description                                                                         |
 | --- | --------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
@@ -22,6 +22,7 @@
 | 16  | [Sports App](https://github.com/solygambas/kotlin-projects/tree/main/16-sports-app)                       | A basic app to introduce to adaptative layouts.                                     |
 | 17  | [Fun Facts](https://github.com/solygambas/kotlin-projects/tree/main/17-fun-facts)                         | An app that displays fun facts about Android, using FirebaseUI Authentication.      |
 | 18  | [Wander](https://github.com/solygambas/kotlin-projects/tree/main/18-wander)                               | A Google Maps app that displays customized maps and the user's location.            |
+| 19  | [Treasure Hunt](https://github.com/solygambas/kotlin-projects/tree/main/19-treasure-hunt)                 | A real-world scavenger hunt using geofencing.                                       |
 
 These projects are adapted from various sources:
 

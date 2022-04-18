@@ -1,0 +1,77 @@
+<!--
+  ~ Copyright (C) 2019 Google Inc.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Treasure Hunt</string>
+    <string name="title_activity_hunt">Treasure Hunt</string>
+
+    <!--    Permissions Strings-->
+    <string
+        name="permission_rationale">Location permission needed for core functionality of the game.
+    </string>
+
+    <string name="permission_denied_explanation">
+        You need to grant location permission in order to play this game.
+    </string>
+    <string name="settings">Settings</string>
+    <string
+        name="location_setting_off">Please turn on device location in Settings and try again.
+    </string>
+
+    <!--    Geofence Status Strings-->
+    <string name="geofences_added">Clue Geofence added.</string>
+    <string name="geofences_removed">Geofences removed.</string>
+    <string name="geofence_entered">Geofence entered.</string>
+    <string name="geofence_over">You have found the treasure! Congratulations!</string>
+
+    <!-- Geofence Hints -->
+    <string name="not_started_hint"></string>
+    <string name="golden_gate_bridge_hint">Go to a bridge with a name that does not match the color that it is!</string>
+    <string name="ferry_building_hint">Go to a market with an amazing assortment of delicious foods. It is a San Francisco classic!</string>
+    <string name="pier_39_hint">Go to a pier popular for tourist attractions, carnival games, fresh fish, and delicious sourdough bread!</string>
+    <string name="union_square_hint">Go to a square named after Civil War rallies held there, but now known for its amazing shopping!</string>
+
+    <!-- Geofence Locations -->
+    <string name="golden_gate_bridge_location">at the Golden Gate bridge</string>
+    <string name="ferry_building_location">in the Ferry Building</string>
+    <string name="pier_39_location">at Pier 39</string>
+    <string name="union_square_location">in Union Square</string>
+
+    <!-- Error strings -->
+    <string name="geofence_not_available">Geofence service is not available now</string>
+    <string name="geofence_too_many_geofences">Your app has registered too many geofences</string>
+    <string name="geofence_too_many_pending_intents">
+        You have provided too many PendingIntents to the addGeofences() call
+    </string>
+    <string name="unknown_geofence_error">
+        Unknown error: the Geofence service is not available now
+    </string>
+    <string name="location_required_error">Location services must be enabled for this game.</string>
+
+    <string name="geofences_not_removed">Geofences not removed.</string>
+    <string name="geofences_not_added">Problem in adding geofences.</string>
+    <string name="insufficient_permissions">Insufficient permissions.</string>
+    <string name="geofence_error">There was an error in finding your treasure</string>
+
+    <!-- Notification Strings-->
+    <string name="channel_name">GeofenceStatus</string>
+    <string name="content_text">You found a clue <xliff:g id="geofence_location">%1$s</xliff:g>.</string>
+    <string name="notification_channel_description">Geofence status notification</string>
+
+    <!-- Content Description Strings -->
+    <string name="android_map_description">An Android robot with a map</string>
+
+</resources>
