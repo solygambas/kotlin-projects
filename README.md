@@ -1,6 +1,6 @@
 # Kotlin Projects
 
-17 projects to learn the fundamentals of building Android apps using Kotlin.
+18 projects to learn the fundamentals of building Android apps using Kotlin.
 
 | #   | Project                                                                                                   | Description                                                                         |
 | --- | --------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
@@ -21,6 +21,7 @@
 | 15  | [Milky Way](https://github.com/solygambas/kotlin-projects/tree/main/15-milky-way)                         | An app to learn how to finely customize an animation, using MotionLayout.           |
 | 16  | [Sports App](https://github.com/solygambas/kotlin-projects/tree/main/16-sports-app)                       | A basic app to introduce to adaptative layouts.                                     |
 | 17  | [Fun Facts](https://github.com/solygambas/kotlin-projects/tree/main/17-fun-facts)                         | An app that displays fun facts about Android, using FirebaseUI Authentication.      |
+| 18  | [Wander](https://github.com/solygambas/kotlin-projects/tree/main/18-wander)                               | A Google Maps app that displays customized maps and the user's location.            |
 
 These projects are adapted from various sources:
 
