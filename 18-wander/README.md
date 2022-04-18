@@ -13,7 +13,7 @@ A Google Maps app that displays customized maps and the user's location.
 - displaying different map types.
 - styling the Google Map.
 - adding markers to the map.
-- enabling the user to placer a marker on a point of interest.
+- enabling the user to place a marker on a point of interest.
 - enabling location tracking.
 
 Based on 2 tutorials by Google Codelabs (2022):
