@@ -53,6 +53,7 @@ internal object GeofencingConstants {
      */
     val GEOFENCE_EXPIRATION_IN_MILLISECONDS: Long = TimeUnit.HOURS.toMillis(1)
 
+    // to test, add your own LatLng coordinates or mock the location on an emulator
     val LANDMARK_DATA = arrayOf(
         LandmarkDataObject(
             "golden_gate_bridge",
