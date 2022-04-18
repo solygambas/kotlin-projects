@@ -2,9 +2,9 @@
 
 A Google Maps app that displays customized maps and the user's location.
 
-<!-- <p align="center">
+<p align="center">
 <img src="screenshot.png" style="width:528px;max-width: 100%;">
-</p> -->
+</p>
 
 ## Features
 
@@ -16,7 +16,4 @@ A Google Maps app that displays customized maps and the user's location.
 - enabling the user to place a marker on a point of interest.
 - enabling location tracking.
 
-Based on 2 tutorials by Google Codelabs (2022):
-
-- [Android Google Maps](https://codelabs.developers.google.com/codelabs/advanced-android-kotlin-training-maps)
-- [Adding Geofencing to Your Map](https://codelabs.developers.google.com/codelabs/advanced-android-kotlin-training-geofencing)
+Based on [Android Google Maps](https://codelabs.developers.google.com/codelabs/advanced-android-kotlin-training-maps) by Google Codelabs (2022).
