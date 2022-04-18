@@ -15,4 +15,4 @@ An app to learn how to finely customize an animation, using MotionLayout.
 - running animations with code.
 - animating collapsible headers with MotionLayout.
 
-Based on [Advanced Android in Kotlin 03.2: Animation with MotionLayout](https://codelabs.developers.google.com/codelabs/motion-layout#0) by Google Codelabs (2022).
+Based on [Animation with MotionLayout](https://codelabs.developers.google.com/codelabs/motion-layout#0) by Google Codelabs (2022).

@@ -14,4 +14,4 @@ A list of DevByte videos, using offline caching.
 - integrating the respository class with the ViewModel.
 - displaying data from the offline cache.
 
-Based on [Android Kotlin Fundamentals: Repository](https://developer.android.com/codelabs/kotlin-android-training-repository#0) by Google Codelabs (2022).
+Based on [Repository](https://developer.android.com/codelabs/kotlin-android-training-repository#0) by Google Codelabs (2022).

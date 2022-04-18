@@ -13,4 +13,4 @@ An app to show how to create property animations, using ObjectAnimator.
 - creating more complex animations with AnimatorSet.
 - setting up the initial and final state of objects with AnimatorListeners.
 
-Based on [Advanced Android in Kotlin 03.1: Property Animation](https://developer.android.com/codelabs/advanced-android-kotlin-training-property-animation#0) by Google Codelabs (2022).
+Based on [Property Animation](https://developer.android.com/codelabs/advanced-android-kotlin-training-property-animation#0) by Google Codelabs (2022).
