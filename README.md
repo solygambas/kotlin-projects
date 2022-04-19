@@ -24,6 +24,7 @@
 | 18  | [Wander](https://github.com/solygambas/kotlin-projects/tree/main/18-wander)                               | A Google Maps app that displays customized maps and the user's location.            |
 | 19  | [Treasure Hunt](https://github.com/solygambas/kotlin-projects/tree/main/19-treasure-hunt)                 | A real-world scavenger hunt using geofencing.                                       |
 | 20  | [Egg Timer](https://github.com/solygambas/kotlin-projects/tree/main/20-egg-timer)                         | A timer app for cooking eggs, using notifications and Firebase Cloud Messaging.     |
+| 21  | [Fan Controller](https://github.com/solygambas/kotlin-projects/tree/main/21-fan-controller)               | A fan control UI to learn how to create a custom view.                              |
 
 These projects are adapted from various sources:
 
