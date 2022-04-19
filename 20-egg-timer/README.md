@@ -2,9 +2,9 @@
 
 A timer app for cooking eggs, using notifications and Firebase Cloud Messaging.
 
-<!-- <p align="center">
+<p align="center">
 <img src="screenshot.png" style="width:528px;max-width: 100%;">
-</p> -->
+</p>
 
 ## Features
 
@@ -15,7 +15,7 @@ A timer app for cooking eggs, using notifications and Firebase Cloud Messaging.
 - adding quick actions to make the notification interactive.
 - turning off notification badges.
 - pushing messages to the user via Firebase Cloud Messaging.
-- transfering data from a backend to the app.
+- transferring data from a backend to the app.
 
 Based on 2 tutorials by Google Codelabs (2022):
 
