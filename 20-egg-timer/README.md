@@ -1,6 +1,6 @@
 # Egg Timer
 
-A timer app for cooking eggs, using notifications.
+A timer app for cooking eggs, using notifications and Firebase Cloud Messaging.
 
 <!-- <p align="center">
 <img src="screenshot.png" style="width:528px;max-width: 100%;">
@@ -14,5 +14,10 @@ A timer app for cooking eggs, using notifications.
 - customizing the notifications.
 - adding quick actions to make the notification interactive.
 - turning off notification badges.
+- pushing messages to the user via Firebase Cloud Messaging.
+- transfering data from a backend to the app.
 
-Based on [Using Android Notifications](https://developer.android.com/codelabs/advanced-android-kotlin-training-notifications#0) by Google Codelabs (2022).
+Based on 2 tutorials by Google Codelabs (2022):
+
+- [Using Android Notifications](https://developer.android.com/codelabs/advanced-android-kotlin-training-notifications#0)
+- [Android Firebase Cloud Messaging](https://codelabs.developers.google.com/codelabs/advanced-android-kotlin-training-notifications-fcm)
