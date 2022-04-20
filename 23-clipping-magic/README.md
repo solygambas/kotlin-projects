@@ -8,6 +8,8 @@ An app to learn how to clip objects on a canvas.
 
 ## Features
 
+- setting up the project and the shapes.
+- handling dimensions on bigger screens.
 - understanding the drawing algorithm.
 - creating a method to draw the shapes.
 - implementing the clipping methods.
