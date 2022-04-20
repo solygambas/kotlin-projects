@@ -13,5 +13,6 @@ An app to learn how to clip objects on a canvas.
 - understanding the drawing algorithm.
 - creating a method to draw the shapes.
 - implementing the clipping methods.
+- improving drawing performances with quickReject().
 
 Based on [Clipping Canvas Objects](https://developer.android.com/codelabs/advanced-android-kotlin-training-clipping-canvas-objects#0) by Google Codelabs (2022).
