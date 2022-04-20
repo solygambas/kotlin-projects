@@ -1,6 +1,6 @@
 # Kotlin Projects
 
-22 projects to learn the fundamentals of building Android apps using Kotlin.
+25 projects to learn the fundamentals of building Android apps using Kotlin.
 
 | #   | Project                                                                                                   | Description                                                                         |
 | --- | --------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
@@ -26,6 +26,9 @@
 | 20  | [Egg Timer](https://github.com/solygambas/kotlin-projects/tree/main/20-egg-timer)                         | A timer app for cooking eggs, using notifications and Firebase Cloud Messaging.     |
 | 21  | [Fan Controller](https://github.com/solygambas/kotlin-projects/tree/main/21-fan-controller)               | A fan control UI to learn how to create a custom view.                              |
 | 22  | [MiniPaint](https://github.com/solygambas/kotlin-projects/tree/main/22-minipaint)                         | A simple line drawing app, using a canvas.                                          |
+| 23  | [Clipping Magic](https://github.com/solygambas/kotlin-projects/tree/main/23-clipping-magic)               | An app to learn how to clip objects on a canvas.                                    |
+| 24  | [FindMe](https://github.com/solygambas/kotlin-projects/tree/main/24-findme)                               | A simple game to learn how to create effects with shaders.                          |
+| 25  | [To-Do Notes](https://github.com/solygambas/kotlin-projects/tree/main/25-to-do-notes)                     | A basic app to learn how to test an Android project.                                |
 
 These projects are adapted from various sources:
 
