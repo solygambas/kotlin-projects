@@ -26,6 +26,7 @@ class ClippedView @JvmOverloads constructor(
     private val textSize = resources.getDimension(R.dimen.textSize)
     private val columnOne = rectInset
     private val columnTwo = columnOne + rectInset + clipRectRight
+    private val columnThree = columnTwo + rectInset + clipRectRight
     private val rowOne = rectInset
     private val rowTwo = rowOne + rectInset + clipRectBottom
     private val rowThree = rowTwo + rectInset + clipRectBottom
@@ -49,7 +50,7 @@ class ClippedView @JvmOverloads constructor(
         drawOutsideClippingExample(canvas)
         drawSkewedTextExample(canvas)
         drawTranslatedTextExample(canvas)
-        // drawQuickRejectExample(canvas)
+        drawQuickRejectExample(canvas)
     }
 
     private fun drawClippedRectangle(canvas: Canvas){
@@ -230,5 +231,34 @@ class ClippedView @JvmOverloads constructor(
     }
 
     private fun drawQuickRejectExample(canvas: Canvas){
+        val inClipRectangle = RectF(clipRectRight / 2,
+            clipRectBottom / 2,
+            clipRectRight * 2,
+            clipRectBottom * 2
+        )
+        val notInClipRectangle = RectF(RectF(clipRectRight+1,
+        clipRectBottom+1,
+        clipRectRight * 2,
+        clipRectBottom * 2))
+        canvas.save()
+        canvas.translate(columnThree, rowOne)
+        canvas.clipRect(
+            clipRectLeft,clipRectTop,
+            clipRectRight,clipRectBottom
+        )
+        if (
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+                canvas.quickReject(inClipRectangle)
+            } else {
+                @Suppress("DEPRECATION")
+                canvas.quickReject(inClipRectangle, Canvas.EdgeType.AA)
+            }
+        ) {
+            canvas.drawColor(Color.WHITE)
+        } else {
+            canvas.drawColor(Color.BLACK)
+            canvas.drawRect(inClipRectangle, paint)
+        }
+        canvas.restore()
     }
 }
