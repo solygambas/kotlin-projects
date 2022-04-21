@@ -2,15 +2,15 @@
 
 A basic app to learn how to test an Android project.
 
-<!-- <p align="center">
+<p align="center">
 <img src="screenshot.png" style="width:528px;max-width: 100%;">
-</p> -->
+</p>
 
 ## Features
 
 - setting up, running, and interpreting both local and instrumental tests in Android.
 - writing unit tests in Android using JUnit4 and Hamcrest.
-- writing simple LiveData and ViewModel tests.
+- writing simple LiveData and ViewModel tests with the AndroidX Test Library.
 
 Based on 3 tutorials by Google Codelabs (2022):
 
