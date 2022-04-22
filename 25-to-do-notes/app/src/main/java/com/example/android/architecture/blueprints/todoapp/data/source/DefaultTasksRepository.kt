@@ -39,7 +39,7 @@ class DefaultTasksRepository(
     private val ioDispatcher: CoroutineDispatcher = Dispatchers.IO
 ) : TasksRepository {
 
-    companion object {
+    /*companion object {
         @Volatile
         private var INSTANCE: DefaultTasksRepository? = null
 
@@ -52,7 +52,7 @@ class DefaultTasksRepository(
                 }
             }
         }
-    }
+    }*/
 
     override suspend fun getTasks(forceUpdate: Boolean): Result<List<Task>> {
         if (forceUpdate) {
