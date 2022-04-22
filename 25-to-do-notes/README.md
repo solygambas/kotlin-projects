@@ -19,9 +19,16 @@ A basic app to learn how to test an Android project.
 - making a ServiceLocator.
 - writing an integration test with Espresso UI testing framework.
 - using Mockito to write Navigation tests.
+- testing coroutines, including view model scoped coroutines.
+- pausing and resuming coroutine execution for testing.
+- testing error handling.
+- writing DAO unit tests.
+- writing local data source integration tests.
+- writing end-to-end tests that include coroutine and data binding code.
+- writing global app navigation tests.
 
 Based on 3 tutorials by Google Codelabs (2022):
 
 - [Testing Basics](https://codelabs.developers.google.com/codelabs/advanced-android-kotlin-training-testing-basics)
 - [Introduction to Test Doubles and Dependency Injection](https://codelabs.developers.google.com/codelabs/advanced-android-kotlin-training-testing-test-doubles)
-- [Survey of Testing Topics](https://codelabs.developers.google.com/codelabs/advanced-android-kotlin-training-testing-survey)
+- [Testing Coroutines and Jetpack integrations](https://codelabs.developers.google.com/codelabs/advanced-android-kotlin-training-testing-survey)
