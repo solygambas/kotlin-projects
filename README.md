@@ -30,6 +30,16 @@
 | 24  | [FindMe](24-findme)                               | A simple game to learn how to create effects with shaders.                          |
 | 25  | [To-Do Notes](25-to-do-notes)                     | A basic app to learn how to test an Android project.                                |
 
+## Get Inspired
+
+Check out our [**collection of articles**](https://www.onbusinessplan.com/) for those beginning their Kotlin journey. Find tips, tricks, and motivational content to keep you engaged and motivated throughout your learning process.
+
+## Playground
+
+[Check the playground](playground) if you want to learn Kotlin core concepts first.
+
+## Acknowledgments
+
 These projects are adapted from various sources:
 
 - [Build A Simple Android App With Kotlin](https://www.youtube.com/watch?v=BBWyXo-3JGQ) by Philipp Lackner for Traversy Media (2021)
@@ -37,4 +47,6 @@ These projects are adapted from various sources:
 - [Android Kotlin Fundamentals](https://developer.android.com/courses/kotlin-android-fundamentals/overview) by Google Codelabs (2022)
 - [Advanced Android in Kotlin](https://developer.android.com/courses/kotlin-android-advanced/overview) by Google Codelabs (2022)
 
-Check the [playground](playground) if you want to learn Kotlin core concepts first.
+## Show Your Support
+
+If you find these projects helpful or interesting, please consider starring the repository. It's a simple gesture that helps to boost the visibility of the project and show appreciation for the effort put into creating it. Additionally, if you'd like to support my work further, you can [**become a sponsor**](https://github.com/sponsors/solygambas). Your support is greatly appreciated. Thank you!
